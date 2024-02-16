@@ -1,0 +1,7 @@
+coralogix-opentelemetry-agent:
+  global:
+    clusterName: sl-cluster
+    domain: coralogix.us
+opentelemetry-agent:
+  fullnameOverride: my-otel-demo-otelcol
+  mode: deployment
